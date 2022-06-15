@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <title>سیستم مدیریت فروشگاه</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(175, 175, 175);
+            margin-top: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        *{
+            font-weight: bold;
+        }
+        div{
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            margin-top: 2px;
+            padding: 2px 30px;
+        }
+        h2 {
+            font-size: 30px;
+            padding:30px;
+            color:white;
+            text-align: center;
+            border: 3px outset rgb(179, 179, 179);
+            border-collapse: collapse;
+            background-color:rgb(255, 147, 183) ;
+            border-radius: 10px;
+            margin-top: 0;
+        }
+        ul li{
+            padding: 30px 0px;
+            background-color: #f1f1f1;
+            margin: 5px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 10px;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+        }
+        li a {
+          display: inline;
+          color: #000;
+          padding: 30px ;
+          text-decoration: none;
+          font-size: 25px;
+        }
+        li a.active {
+          color: white;
+        }
+        
+        ul li:hover{
+          background-color: rgb(105, 105, 105);
+        }
+        a:hover{
+            color:#f1f1f1;
+        }
+    
+    </style>
+</head>
+<body >
+    <h2>سیستم مدیریت فروشگاه
+        </h2>
+		<div>
+        <ul>
+            <li style="width: 32%;"><a href="Enterpot.php">اطلاعات انبار</a></li>
+            <li style="width:32%; float:left"><a href="Shopping_Store.php">اطلاعات بخش های فروشگاه</a></li>
+			 <li style="width: 32%;"><a href="Employee.php">اطلاعات کارمندان</a></li>
+        </ul>
+    </div>
+	<div>
+        <ul>
+            <li style="width: 32%;"><a href="Enterpot_insert.php">درج انبار جدید</a></li>
+            <li style="width:32%; float:left"><a href="Shopping_Store_insert.php">درج بخش جدید</a></li>
+			 <li style="width: 32%;"><a href="Employee_insert.php">درج کارمند جدید</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li style="width:32%; float:right"><a href="Customer.php">اطلاعات مشتریان</a></li>
+            <li style="width: 32%;"><a href="Bill.php">اطلاعات فاکتورها</a></li>
+            <li style="width:32%; float:left"><a href="Product.php"> اطلاعات کالاها </a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+           <li style="width:32%; float:right"><a href="Customer_insert.php">درج مشتری جدید</a></li>
+            <li style="width: 32%;"><a href="Bill_insert.php">درج فاکتور جدید</a></li>
+            <li style="width:32%; float:left"><a href="Product_insert.php">درج کالا جدید</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+           <li style="width:32%; float:right"><a href="Shopping.php">اطلاعات خرید</a></li>
+            <li style="width: 32%;"><a href="StockStore.php">موجودی فروشگاه</a></li>
+            <li style="width:32%; float:left"><a href="StockEnterpot.php">موجودی انبار</a></li>
+        </ul>
+    </div>
+	<div>
+        <ul>
+           <li style="width:32%; float:right"><a href="Shopping_insert.php">درج خرید جدید</a></li>
+            <li style="width: 32%;"><a href="StockStore_insert.php">درج کالا در فروشگاه</a></li>
+            <li style="width:32%; float:left"><a href="StockEnterpot_insert.php">درج کالا در انبار</a></li>
+        </ul>
+    </div>
+	<div>
+        <ul>
+           <li style="width:49%; float:right"><a href="Dependent.php">اطلاعات وابستگان کارمندان</a></li>
+            <li style="width: 49%;"><a href="Dependent_insert.php">درج وابستگان جدید</a></li>
+        </ul>
+    </div>
+	
+</body>
+</html>
